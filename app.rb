@@ -6,6 +6,6 @@ end
 
 
 post '/' do
-    @name = params[:name]
+    @name = params[:user_name]
     erb :page
 end
