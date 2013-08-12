@@ -9,13 +9,13 @@
 
         <h1> Welcome <%= @name %> !</h1></br>
         <p>Here are the details you provided:<br></p>
-        <table border="1">
-                <tr  padding = "10px"> 
+        <table class = "table table-bordered">
+                <tr> 
                     <td><b> Name</b></td>
                     <td><b> Email</b></td>
                     <td> <b>Operating System</b> </td>
                 </tr>
-                <tr  padding = "10px">
+                <tr>
                     <td> <%= @name %></td>
                     <td> <%= @email %></td>
                     <td>  <%= @opsys %></td>

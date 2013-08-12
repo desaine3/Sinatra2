@@ -7,13 +7,18 @@
 <body>
     <div class='container'>
         <form method="post" action='/'>
-            <h4> User Name: </h4> <br>
+            <h4> Name: </h4> 
             <input type='text' name='user_name'><br>
-            <h4> User Email: </h4> <br>
+            <h4> Email: </h4> 
             <input type = 'text' name= 'user_email'>
 
-            <input type = '' name = 'user_opsys'
-            <br><button type='submit' class='btn btn-success'>Submit</button>
+            <br><br>Which Operating System do you use? <br><br>
+
+            <input type = 'radio' name = 'user_opsys' value = "Windows">  Windows<br><br>
+             <input type = 'radio' name = 'user_opsys' value = "Mac">  Mac<br><br>
+              <input type = 'radio' name = 'user_opsys' value = "Linux">  Linux<br><br>
+
+            <button type='submit' class='btn btn-success'>Submit</button>
 
         </form>
     </div>
