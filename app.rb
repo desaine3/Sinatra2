@@ -7,6 +7,7 @@ end
 
 post '/' do
     @name = params[:user_name]
-    @useremail = params [:user_email]
+    @email = params[:user_email]
+    @opsys = params[:user_opsys]
     erb :page
 end
